@@ -1,18 +1,405 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Floricultura</title>
-        <link rel="shortcut icon" type="img/x-icon" href="./img/kalangos.ico">
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-        />
-        <link rel="stylesheet" href="style.css" />
-        <script src="script.js" defer></script>
-    </head>
-    <body>
-        <h1>Hello world</h1>
-    </body>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Floricultura</title>
+    <link rel="shortcut icon" type="img/x-icon" href="./img/kalangos.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+    <!--header section starts-->
+    <header>
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        <a href="#" class="logo">flori<span>cultura.</span></a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">sobre</a>
+            <a href="#products">produtos</a>
+            <a href="#review">review</a>
+            <a href="#contact">contato</a>
+        </nav>
+
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+    </header>
+    <!--header section ends-->
+
+    <!--home section starts-->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>flores naturais</h3>
+            <span>flores bonitas e naturais</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reprehenderit natus unde voluptatem sint sed sunt numquam quasi exercitationem! Odio, non?</p>
+            <a href="#" class="btn">compre agora</a>
+        </div>
+    </section>
+    <!--home section ends-->
+
+    <!--sobre section starts-->
+    <section class="about" id="about">
+        <h1 class="heading"><span>sobre </span>nós</h1>
+        <div class="row">
+            <div class="video-container">
+                <video src="img/about-vid.mp4" loop autoplay muted></video>
+                <h3>melhores flores selecionadas</h3>
+            </div>
+            <div class="content">
+                <h3>por que nos escolher?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi asperiores quibusdam
+                    perferendis corrupti quaerat dolore unde, itaque,
+                    neque doloremque nihil ea laudantium nulla in quisquam culpa. Dolor quidem quae explicabo.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Et, molestias earum eos deleniti odit quam adipisci totam nemo sed eum?
+                </p>
+                <a href="#" class="btn">saiba mais...</a>
+            </div>
+        </div>
+    </section>
+    <!--sobre section ends-->
+
+    <!--icons section starts-->
+    <section class="icons-container" id="icons">
+        <div class="icons">
+            <img src="img/icon-1.png" alt="">
+            <div class="info">
+                <h3>entrega grátis</h3>
+                <span>em todos os pedidos</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="img/icon-2.png" alt="">
+            <div class="info">
+                <h3>10 dias para devolver</h3>
+                <span>devolução garantida</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="img/icon-3.png" alt="">
+            <div class="info">
+                <h3>embalagens para presentes</h3>
+                <span>em todos os pedidos</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="img/icon-4.png" alt="">
+            <div class="info">
+                <h3>pagamento seguro</h3>
+                <span>protegido pelo paypal</span>
+            </div>
+        </div>
+    </section>
+    <!--icons section ends-->
+
+    <!--products section starts-->
+    <section class="products" id="products">
+        <h1 class="heading">últimos <span>produtos</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="img/img-1.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">comprar</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>potes de flores</h3>
+                    <div class="price">-R$ 29.90-<span>R$ 49,90</span>-</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-15%</span>
+                <div class="image">
+                    <img src="img/img-2.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">comprar</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>potes de flores</h3>
+                    <div class="price">-R$ 29.90-<span>R$ 49,90</span>-</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-5%</span>
+                <div class="image">
+                    <img src="img/img-3.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">comprar</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>potes de flores</h3>
+                    <div class="price">-R$ 29.90-<span>R$ 49,90</span>-</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-20%</span>
+                <div class="image">
+                    <img src="img/img-4.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">comprar</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>potes de flores</h3>
+                    <div class="price">-R$ 29.90-<span>R$ 49,90</span>-</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-20%</span>
+                <div class="image">
+                    <img src="img/img-5.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">comprar</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>potes de flores</h3>
+                    <div class="price">-R$ 29.90-<span>R$ 49,90</span>-</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-15%</span>
+                <div class="image">
+                    <img src="img/img-6.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">comprar</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>potes de flores</h3>
+                    <div class="price">-R$ 29.90-<span>R$ 49,90</span>-</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="img/img-7.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">comprar</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>potes de flores</h3>
+                    <div class="price">-R$ 29.90-<span>R$ 49,90</span>-</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-5%</span>
+                <div class="image">
+                    <img src="img/img-8.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">comprar</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>potes de flores</h3>
+                    <div class="price">-R$ 29.90-<span>R$ 49,90</span>-</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-25%</span>
+                <div class="image">
+                    <img src="img/img-9.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">comprar</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>potes de flores</h3>
+                    <div class="price">-R$ 29.90-<span>R$ 49,90</span>-</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--products section ends-->
+
+    <!--review section starts-->
+    <section class="review" id="review">
+        <h1 class="heading">reviews <span>clientes</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nam corporis cupiditate deleniti
+                    dolorem expedita.
+                    Esse, magni accusamus amet officia suscipit eaque placeat ad nam nostrum deleniti voluptate
+                    consequuntur rerum.
+                </p>
+                <div class="user">
+                    <img src="img/pic-1.png" alt="">
+                    <div class="user-infor">
+                        <h3>fulano de tal</h3>
+                        <span>cliente feliz</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nam corporis cupiditate deleniti
+                    dolorem expedita.
+                    Esse, magni accusamus amet officia suscipit eaque placeat ad nam nostrum deleniti voluptate
+                    consequuntur rerum.
+                </p>
+                <div class="user">
+                    <img src="img/pic-2.png" alt="">
+                    <div class="user-infor">
+                        <h3>sicrana de tal</h3>
+                        <span>cliente feliz</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nam corporis cupiditate deleniti
+                    dolorem expedita.
+                    Esse, magni accusamus amet officia suscipit eaque placeat ad nam nostrum deleniti voluptate
+                    consequuntur rerum.
+                </p>
+                <div class="user">
+                    <img src="img/pic-3.png" alt="">
+                    <div class="user-infor">
+                        <h3>beltrano de tal</h3>
+                        <span>cliente feliz</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+
+        </div>
+    </section>
+    <!--review section ends-->
+
+    <!--contacts section starts-->
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>nosso</span> contato</h1>
+
+        <div class="row">
+            <form action="">
+                <input type="text" name="" id="" placeholder="nome" class="box">
+                <input type="email" name="" id="" placeholder="email" class="box">
+                <input type="tel" name="" id="" placeholder="telefone" class="box">
+                <textarea class="box" placeholder="mensagem" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="enviar mensagem" class="btn">
+            </form>
+            <div class="image">
+                <img src="img/contact-img.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <!--contacts section ends-->
+
+    <!--footer section starts-->
+    <section class="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <h3>links rápidos</h3>
+                <a href="#home">home</a>
+                <a href="#about">sobre</a>
+                <a href="#products">produtos</a>
+                <a href="#review">review</a>
+                <a href="#contact">contato</a>
+            </div>
+            
+            <div class="box">
+                <h3>links extras</h3>
+                <a href="#myaccount">minha conta</a>
+                <a href="#myorder">meus pedidos</a>
+                <a href="#favorite">favoritos</a>
+            </div>
+            
+            <div class="box">
+                <h3>endereço</h3>
+                <p>recife - PE</p>
+                <p>jaboatão dos guararapes - PE</p>
+                <p>joão pessoa - PB</p>
+            </div>
+            
+            <div class="box">
+                <h3>contatos</h3>
+                <a href="#">(81) 9 9470 1058</a>
+                <a href="#">(83) 9 8600 3492</a>
+                <a href="#">odlimor.sevla@gmail.com</a>
+                <a href="https://kalangos.net">kalango's</a>
+                <img src="img/payment.png" alt="">
+            </div>
+            
+        </div>
+        <div class="credit">
+            created by <span>romildo jr.</span> | all rights reserved
+        </div>
+    </section>
+    <!--footer section ends-->
+
+
+    <script src="js/script.js"></script>
+</body>
+
 </html>
